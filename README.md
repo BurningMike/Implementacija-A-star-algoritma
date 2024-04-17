@@ -10,7 +10,10 @@ V repozitoriju sta dve različici programa:
 * Uporabnik program zažene kot normalen program v jeziku Python.
 * Pojavi se "pygame" okno, na katerem je narisana mreža. Uporabnik nato izbere začetno in končno polje tako, da kazalec miške postavi na želeno lokacijo in pritisne levi gumb. Začetno polje se pobarva zeleno, končno pa rdeče. Uporabnik lahko izbere le eno začetno in eno končno polje.
 * Uporabnik lahko nato z kratkim pritiskom ali držanjem levega gumba izbere poljubna polja na mreži, ki bodo postala ovire. Ovire se obarvajo črno, in ne morejo biti postavljene na polji, kjer sta začetno in končno polje. Uporabnik lahko posamezno oviro tudi odstrani s pritiskom na levi miškin gumb. Uporabnik ne more odstraniti začetnega ali končnega polja.
-* Ko je uporabnik zadovoljen z izbiro ovir, lahko pritisne tipko presledek na tipkovnici in s tem začne algoritem, ki bo poiskal najkrajšo pot med izbranim začetnim in končnim poljem. Če je pot nemogoče najti, bo program izpisal "Pot je nemogoče poiskati" v ukazno vrstico in se samodejno zaprl.
+* Ko je uporabnik zadovoljen z izbiro ovir, lahko pritisne tipko presledek na tipkovnici in s tem začne algoritem, ki bo poiskal najkrajšo pot med izbranim začetnim in končnim poljem.
+* Med delovanjem programa se na mreži polja pobarvajo oranžno ali modro. Oranžno pobarvana polja so tista, ki so bila kadarkoli med delovanjem programa "trenutna", torej je program izračunal "h", "g" in "f_ceno" polj, ki mejijo nanj. Modro so obarvana polja, katera nikoli niso bila "trenutna", a mejijo na eno ali več "trenutnih" polj, zato jim so jim bile vse tri "cene" izračunane.
+* Ob koncu algoritma, se nekatera polja obarvajo vijolično. To so polja, ki predstavljajo najkrajšo pot med začetnim in končnim poljem.
+* Če je pot med začetnim in končnim poljem nemogoče najti, bo program izpisal "Pot je nemogoče poiskati" v ukazno vrstico in se samodejno zaprl.
 
 #
 Avtor: Miha Šparl
