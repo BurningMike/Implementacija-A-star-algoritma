@@ -12,4 +12,5 @@ V repozitoriju sta dve različici programa:
 * Uporabnik lahko nato z kratkim pritiskom ali držanjem levega gumba izbere poljubna polja na mreži, ki bodo postala ovire. Ovire se obarvajo črno, in ne morejo biti postavljene na polji, kjer sta začetno in končno polje. Uporabnik lahko posamezno oviro tudi odstrani s pritiskom na levi miškin gumb. Uporabnik ne more odstraniti začetnega ali končnega polja.
 * Ko je uporabnik zadovoljen z izbiro ovir, lahko pritisne tipko presledek na tipkovnici in s tem začne algoritem, ki bo poiskal najkrajšo pot med izbranim začetnim in končnim poljem. Če je pot nemogoče najti, bo program izpisal "Pot je nemogoče poiskati" v ukazno vrstico in se samodejno zaprl.
 
+#
 Avtor: Miha Šparl
